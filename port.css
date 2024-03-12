@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-image: url('Picsart_24-03-05_19-06-22-697.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body::before {
+    content: "";
+    position:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('Picsart_24-03-05_19-06-22-697.jpg');
+    filter: grayscale(100%);
+}
+
+.title_name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.upper {
+    position: relative;
+    padding-left: 30px;
+}
+
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.links a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.links a:hover {
+    color: black;
+    background-color: rgb(235, 235, 235);
+    border-radius: 30px;  
+}
+
+.intrr{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 400px;
+    right: 0;
+    .sub_text{
+        position: absolute;
+        padding-left: 35vh;
+    }
+}
+
+.op img{
+    height: 40%;
+}
+
+.discipline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 600px;
+    font-size: 40px;
+}
+.positive{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 350px;
+}
+.discipline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    height: auto;
+    width: 350px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.bio h2 {
+    margin-bottom: 10px;
+}
+
+.bio p {
+    margin-bottom: 5px;
+}
+
+/* Contact Section Styles */
+.contact-details {
+    margin-top: 50px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-details a {
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
